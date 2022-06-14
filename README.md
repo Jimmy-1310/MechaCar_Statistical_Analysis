@@ -42,4 +42,11 @@ Although this changes in Lot 3 when we see a P_value of 0.3. In this case we rej
 
 ![T_test_3](https://user-images.githubusercontent.com/95836718/173398459-8b052063-67aa-4dac-b1fa-15b4962747c3.png)
 
+## Study Design: MechaCar vs Competition.
 
+One aspect that turns out to be really important is fuel consumption. Because, at the end of the day it represents the most continuos cost that a driver needs to cover. Based on this, a test to see which cars consumes less fuel might be useful to see if the MechaCar is more efficient that the competitions car. But also, we need to check how their consumption changes over time so we can analyze which car is the better long term investment.
+
+- Metrics: Fuel consumption over time.
+- Null hypothesis: There is no difference between the fuel consumption between the cars.
+- Statistical Analysis: We can develop a regression and identify the slope of each model. Based on the highest slope we can determine the car that their fuel consumptions gets worse over time.
+- Data: We need to identify the average fuel consumption per kilometer of each car in at least 5 years to develop a proper model.
